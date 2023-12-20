@@ -1,0 +1,15 @@
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\bin\Debug\net6.0\LiberacaoCredito.Application.deps.json
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\bin\Debug\net6.0\LiberacaoCredito.Application.dll
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\bin\Debug\net6.0\LiberacaoCredito.Application.pdb
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\bin\Debug\net6.0\LiberacaoCredito.Domain.dll
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\bin\Debug\net6.0\LiberacaoCredito.Domain.pdb
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.csproj.AssemblyReference.cache
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.AssemblyInfoInputs.cache
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.AssemblyInfo.cs
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.csproj.CoreCompileInputs.cache
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.csproj.CopyComplete
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.dll
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\refint\LiberacaoCredito.Application.dll
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\LiberacaoCredito.Application.pdb
+C:\Users\nesca\RiderProjects\Teste\LiberacaoCredito.Application\obj\Debug\net6.0\ref\LiberacaoCredito.Application.dll
