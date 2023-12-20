@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,7 +9,8 @@ public static class ApiConfig
 {
     public static void AddApiConfiguration(this IServiceCollection services)
     {
-        services.AddControllers();
+        services.AddControllers().AddJsonOptions(options => 
+            options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
         services.Configure<ApiBehaviorOptions>(options =>
         {
