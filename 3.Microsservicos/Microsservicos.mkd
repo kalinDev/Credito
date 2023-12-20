@@ -36,3 +36,5 @@ Serviço de Notificação:
 - Responsável por enviar notificações assíncronas para clientes e comerciantes sobre o status das transações. Ele pode receber mensagens do Serviço de Processamento de Pagamento.
 
 ![Microsservicos](Microsservicos.PNG)
+
+![Microsservicos](MicrosservicosComLoadBalance.PNG)

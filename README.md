@@ -75,3 +75,5 @@ Essencialmente, este script cria uma estrutura de banco de dados para um sistema
 ## 3.Microsservicos
 
 Por último a pasta Microsservicos contem uma breve explicação do que é um microsservico, e consta também um exemplo em diagrama e a explicação do mesmo.
+
+![Microsservicos](3.Microsservicos/MicrosservicosComLoadBalance.PNG)
