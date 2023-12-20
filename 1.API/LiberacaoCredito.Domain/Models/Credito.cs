@@ -1,3 +1,4 @@
+using System;
 using LiberacaoCredito.Domain.Enums;
 
 namespace LiberacaoCredito.Domain.Models;

@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using LiberacaoCredito.Application.Validations;
 using LiberacaoCredito.Domain.Enums;
 using LiberacaoCredito.Domain.Interfaces;

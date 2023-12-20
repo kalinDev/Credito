@@ -13,8 +13,13 @@
 *.userosscache
 *.sln.docstates
 
-# JetBrains Rider
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos do Rider
 .idea/
+*.sln.iml
 
 # Visual Studio Code
 .vscode/

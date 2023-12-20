@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace LiberacaoCredito.Domain.Models;
 
 public class ResultadoCredito

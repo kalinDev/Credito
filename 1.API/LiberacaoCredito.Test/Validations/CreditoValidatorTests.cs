@@ -1,3 +1,4 @@
+using System;
 using FluentValidation.TestHelper;
 using LiberacaoCredito.Application.Validations;
 using LiberacaoCredito.Domain.Enums;

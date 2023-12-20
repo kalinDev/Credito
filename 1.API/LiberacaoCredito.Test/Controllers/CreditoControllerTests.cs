@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using LiberacaoCredito.Api.Controllers;
 using LiberacaoCredito.Domain.Enums;
 using LiberacaoCredito.Domain.Interfaces;

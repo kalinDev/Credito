@@ -1,6 +1,8 @@
+using System;
 using LiberacaoCredito.Domain.Interfaces;
 using LiberacaoCredito.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace LiberacaoCredito.Api.Controllers;
 
