@@ -41,8 +41,9 @@ docker run -p 8080:80 liberacao-credito
 ```
 
 ## 2. SQL
-
 Esta Pasta contem o SCRIPT SQL, para o SQL SERVER
+
+![Microsservicos](2.SQL/ERDiagrama.PNG)
 
 ### A seguir, uma descrição textual do que está sendo feito no script:
 
