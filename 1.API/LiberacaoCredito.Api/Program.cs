@@ -1,4 +1,4 @@
-using Liberacao.Infra.CrossCutting.IoC;
+using LiberacaoCredito.Infra.CrossCutting.IoC;
 using LiberacaoCredito.Api.Configurations;
 using Microsoft.AspNetCore.Builder;
 
