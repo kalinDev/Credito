@@ -1,0 +1,38 @@
+## O que são Microsserviços?
+
+Microsserviços são como equipes especializadas dentro de uma aplicação, cada uma cuidando de uma parte específica, como cadastro de usuários, processamento de pedidos ou busca de produtos. Essas equipes podem usar tecnologias diferentes entre elas bancos de dados (sql, noSQL) e até linguagens de programação distintas, porque se comunicam por protocolos padrão, seja via HTTP, RPC ou mensagens assincronas, como fila de mensagens (RabbitMQ, AWS sqs, entre outros...).
+
+A magia dos microsserviços está em poder atualizar ou corrigir uma parte, ou "serviço", sem precisar mexer nos outros, pemitindo assim que diferentes partes sejam modificadas separadamente sem que implique em pausa ou quebra de outra parte do sistema, permitindo assim que novas atualizaçoes e até mesmo correções possam ser feitas simplificadamentes. 
+
+## Fazendo uma comparação com a arquitetura monolitica:
+
+A arquitetura monolítica organiza uma aplicação como uma unidade única, onde todos os componentes estão interligados, resultando em um acoplamento forte. Em contraste, os microsserviços desmembram a aplicação em serviços independentes e autônomos, permitindo flexibilidade no desenvolvimento, escalabilidade horizontal e diversidade tecnológica. Enquanto a arquitetura monolítica é mais simples de manter, os microsserviços oferecem maior flexibilidade e eficiência na escalabilidade, sendo ideais para projetos que demandam inovação ágil e distribuição de responsabilidades entre serviços especializados.
+
+## EXEMPLO
+
+Gateway de Pagamento:
+
+- Este é o ponto de entrada para as solicitações de pagamento do cliente. Ele encaminha as solicitações para o Serviço de Autorização.
+Serviço de Autorização:
+
+- Responsável por validar e autorizar as transações de pagamento. Ele recebe mensagens do Gateway de Pagamento e, após autorizar, envia mensagens para o Serviço de Processamento de Pagamento.
+
+RabbitMQ:
+
+- Uma fila de mensagens que facilita a comunicação assíncrona entre os serviços. O Serviço de Autorização e o Serviço de Processamento de Pagamento enviam e recebem mensagens através do RabbitMQ.
+Serviço de Processamento de Pagamento:
+
+- Realiza o processamento efetivo do pagamento após a autorização. Pode armazenar dados não transacionais em um Banco de Dados NoSQL. Após o processamento, pode enviar mensagens ao Serviço de Notificação.
+
+Banco de Dados SQL:
+
+- Um banco de dados SQL que armazena informações transacionais, como detalhes de transações autorizadas. O Serviço de Autorização pode interagir com este banco de dados.
+Banco de Dados NoSQL:
+
+- Um banco de dados NoSQL que pode ser utilizado para armazenar dados não transacionais, como logs e informações de auditoria pelo Serviço de Processamento de Pagamento.
+
+Serviço de Notificação:
+
+- Responsável por enviar notificações assíncronas para clientes e comerciantes sobre o status das transações. Ele pode receber mensagens do Serviço de Processamento de Pagamento.
+
+![Microsservicos](Microsservicos.PNG)
