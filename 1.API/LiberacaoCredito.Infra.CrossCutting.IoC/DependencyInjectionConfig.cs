@@ -2,7 +2,7 @@ using LiberacaoCredito.Application.Services;
 using LiberacaoCredito.Domain.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Liberacao.Infra.CrossCutting.IoC;
+namespace LiberacaoCredito.Infra.CrossCutting.IoC;
 
 public static class DependencyInjectionConfig
 {

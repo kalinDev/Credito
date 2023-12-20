@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiberacaoCredito.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiberacaoCredito.Test", "LiberacaoCredito.Test\LiberacaoCredito.Test.csproj", "{ABF399C0-E213-4A9A-B39B-A5D5AE1664C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liberacao.Infra.CrossCutting.IoC", "Liberacao.Infra.CrossCutting.IoC\Liberacao.Infra.CrossCutting.IoC.csproj", "{DB520347-6DC4-4254-90A4-09D7A93E2179}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiberacaoCredito.Infra.CrossCutting.IoC", "LiberacaoCredito.Infra.CrossCutting.IoC\LiberacaoCredito.Infra.CrossCutting.IoC.csproj", "{DB520347-6DC4-4254-90A4-09D7A93E2179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
