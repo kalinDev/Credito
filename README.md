@@ -31,6 +31,15 @@ dotnet restore
 dotnet test
 ```
 
+### Utilizando Dockerfile
+Cria a imagem e executa o contêiner.
+
+```bash
+cd 1.API
+docker build -t liberacao-credito .
+docker run -p 8080:80 liberacao-credito
+```
+
 ## 2. SQL
 
 Esta Pasta contem o SCRIPT SQL, para o SQL SERVER
