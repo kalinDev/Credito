@@ -61,3 +61,7 @@ Consultas SQL:
 - Consulta 1: Lista todos os clientes do estado de SP que possuem mais de 60% das parcelas pagas.
 - Consulta 2: Lista os primeiros quatro clientes que possuem alguma parcela com mais de cinco dias sem atraso.
 Essencialmente, este script cria uma estrutura de banco de dados para um sistema de financiamento, permitindo a validação de CPF, gerenciamento de clientes, financiamentos e parcelas, além de realizar consultas específicas para obter informações úteis.
+
+## 3.Microsservicos
+
+Por último a pasta Microsservicos contem uma breve explicação do que é um microsservico, e consta também um exemplo em diagrama e a explicação do mesmo.
